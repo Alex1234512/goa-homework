@@ -147,6 +147,18 @@ color("blue")
 forward(200)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 exitonclick()
 
 
