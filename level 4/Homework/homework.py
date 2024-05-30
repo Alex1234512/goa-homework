@@ -311,13 +311,13 @@ left(90)
 forward(150)
 
 right(90)
-forward(120)
+forward(100)
 
 right(90)
 forward(80)
 
 right(90)
-forward(120)
+forward(100)
 end_fill()
 penup()
 goto(-140, 260)
@@ -325,7 +325,9 @@ pendown()
 
 #step 7: painting GOA in the flag
 
-color("green")
+color("white")
+
+width(4)
 
 right(180)
 forward(15)
@@ -345,10 +347,140 @@ forward(10)
 left(90)
 forward(5)
 
+penup()
+goto(-130, 140)
+pendown()
 
+color("grey")
 
+forward(30)
 
+color("green")
 
+width(4)
+
+penup()
+goto(-105, 240)
+pendown()
+
+color("green")
+
+right(90)
+forward(20)
+
+right(90)
+forward(10)
+
+right(90)
+forward(20)
+
+right(90)
+forward(10)
+
+penup()
+goto(-80, 240)
+pendown()
+
+color("white")
+
+right(115)
+forward(20)
+
+right(130)
+forward(20)
+
+right(180)
+forward(7)
+
+left(70)
+forward(10)
+
+penup()
+goto(-130, 140)
+pendown()
+
+width(7)
+
+color("grey")
+
+left(90)
+forward(1)
+
+right(90)
+forward(50)
+
+penup()
+goto(600, 200)
+pendown()
+
+#step 8: drawing the sky
+
+color("skyblue")
+
+begin_fill()
+left(85)
+forward(265)
+
+right(90)
+forward(393)
+
+right(90)
+forward(268)
+
+left(45)
+forward(129)
+
+left(90)
+forward(129)
+
+left(45)
+forward(56)
+
+right(90)
+forward(172)
+
+right(90)
+forward(57)
+
+right(90)
+forward(101)
+
+left(90)
+forward(92)
+
+left(90)
+forward(113)
+
+left(90)
+forward(150)
+
+right(90)
+forward(165)
+
+right(90)
+forward(55)
+
+left(45)
+forward(127)
+
+left(90)
+forward(131)
+
+left(45)
+forward(264)
+
+right(90)
+forward(93)
+
+right(90)
+forward(400)
+
+right(90)
+forward(1200)
+
+right(90)
+forward(150)
+end_fill()
 
 
 
@@ -373,4 +505,3 @@ forward(5)
 
 
 exitonclick()
-
