@@ -482,9 +482,106 @@ right(90)
 forward(150)
 end_fill()
 
+#step 9: drawing the first window
 
+penup()
+goto(150, 100)
+pendown()
 
+color("brown")
 
+forward(80)
+
+right(90)
+forward(60)
+
+right(90)
+forward(80)
+
+penup()
+goto(120, 100)
+pendown()
+
+right(90)
+forward(30)
+
+right(180)
+forward(60)
+
+right(180)
+forward(60)
+
+right(90)
+forward(27)
+
+right(90)
+forward(60)
+
+left(90)
+forward(27)
+
+left(90)
+forward(60)
+
+penup()
+goto(150, 100)
+pendown()
+
+#step 10: drawing the second window
+penup()
+goto(-390, 100)
+pendown()
+
+right(90)
+forward(80)
+
+right(90)
+forward(60)
+
+right(90)
+forward(80)
+
+right(90)
+forward(60)
+
+right(90)
+forward(27)
+
+right(90)
+forward(60)
+
+left(90)
+forward(27)
+
+left(90)
+forward(60)
+
+right(90)
+forward(26)
+
+right(90)
+forward(30)
+
+right(90)
+forward(80)
+
+penup()
+goto(150, 100)
+pendown()
+
+left(90)
+forward(30)
+
+left(90)
+forward(80)
+
+#step 11: drawing the king
+
+color("sienna")
+
+penup()
+goto(0, 10)
+pendown()
 
 
 
